@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "removeComments": true,
+    "noEmitOnError": true,
+    "alwaysStrict": true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.promise",
+      "es2017"
+    ],
+    "allowJs": false,
+    "sourceRoot": "/source"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./custom_typings/**/*.d.ts",
+    "./test/unit/specs/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
